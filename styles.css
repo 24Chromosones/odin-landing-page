@@ -176,8 +176,8 @@ li {
   align-items: center;
 }
 
-.mini-ad {
-  display: flex;
+.resource {
+  display: flex !important;
   justify-content: space-between;
   align-items: center;
   background-color: #3882f6;
@@ -186,24 +186,24 @@ li {
   border-radius: 15px;
 }
 
-.ad-text {
+.resource-text {
   margin-left: 120px;
 }
 
-.ad-title {
+.resource-title {
   font-size: 24px;
   font-weight: 600;
   color: #f9faf8;
 }
 
-.ad-description {
+.resource-description {
   font-size: 18px;
   color: #e5e7eb;
   opacity: .9;
   font-weight: 300;
 }
 
-.ad-button {
+.resource-button {
   margin-right: 120px;
   background-color: transparent;
   border-style: solid;
