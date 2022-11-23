@@ -24,7 +24,7 @@ li {
   margin-right: 16px;
 }
 
-a {
+.header-link {
   text-decoration: none;
   color: #e5e7eb;
   opacity: .7;
@@ -85,6 +85,7 @@ a {
   width: 600px;
   height: 300px;
   object-fit: cover;
+
 }
 
 .section-two {
@@ -124,7 +125,10 @@ a {
   border-color: #3882f6;
   border-width: 4px;
   border-radius: 20px;
+  object-fit: cover;
 }
+
+
 
 .box-description {
   width: 160px;
