@@ -45,7 +45,7 @@ a {
   align-items: center;
   justify-content: center;
   gap: 60px;
-  height: 500px;
+  height: 400px;
   
 }
 
@@ -90,13 +90,14 @@ a {
 .section-two {
   display: flex;
   flex-direction: column;
-  gap: 40px
+  gap: 40px;
+  height: 400px;
+  justify-content: center;
 }
 
 .section-two-title {
   display: flex;
   justify-content: center;
-  margin-top: 30px;
   font-size: 36px;
   font-weight: 800;
   color: #1f2937;
@@ -134,5 +135,88 @@ a {
 }
 
 .section-three {
-  padding-top: 50px;
+  display: flex;
+  height: 400px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #e5e7eb;
+}
+
+.quote {
+  display: flex;
+  flex-direction: column;
+  max-width: 800px;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+.quote-description {
+  font-size: 36px;
+  font-weight: 300;
+  color: #1f2937;
+  font-style: italic;
+}
+
+.quote-author {
+  font-size: 28px;
+  display: flex;
+  justify-content: flex-end;
+  font-weight: 600;
+}
+
+.section-four {
+  display: flex;
+  height: 400px;
+  justify-content: center;
+  align-items: center;
+}
+
+.mini-ad {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #3882f6;
+  width: 1000px;
+  height: 150px;
+  border-radius: 15px;
+}
+
+.ad-text {
+  margin-left: 120px;
+}
+
+.ad-title {
+  font-size: 24px;
+  font-weight: 600;
+  color: #f9faf8;
+}
+
+.ad-description {
+  font-size: 18px;
+  color: #e5e7eb;
+  opacity: .9;
+  font-weight: 300;
+}
+
+.ad-button {
+  margin-right: 120px;
+  background-color: transparent;
+  border-style: solid;
+  width: 130px;
+  height: 35px;
+  border-color: #f9faf8;
+  border-width: 2px;
+  border-radius: 8px;
+  color: #f9faf8;
+}
+
+.footer {
+  height: 60px;
+  background-color: #1f2937;
+  display: flex;
+  color: #f9faf8;
+  justify-content: center;
+  align-items: center;
+  font-weight: 300;
 }
